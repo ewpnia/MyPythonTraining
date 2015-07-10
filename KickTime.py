@@ -1,7 +1,5 @@
-    
 import os
 import re
-
 
 dir1 ='D:\cbhb\\new'
 dir2 ='D:\cbhb\NOTIME'
@@ -14,6 +12,7 @@ for f in files:
     inputfile = os.path.join(dir1,f)
     outputfile = os.path.join(dir2,f)
 
+    # with?
     f = open(inputfile, "r")
     t = open(outputfile, "w")
 
