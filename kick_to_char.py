@@ -4,8 +4,8 @@ import re
 dir1 ='D:\\sztc2\\2013-11-12 OracleToInformix\\ii1'
 dir2 ='D:\\sztc2\\2013-11-12 OracleToInformix\\ii2'
 
-
 files = os.listdir(dir1)
+print 'test'
 
 for f in files:
     print f
